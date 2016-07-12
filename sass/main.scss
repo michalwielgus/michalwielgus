@@ -7,6 +7,9 @@ $jquery_logo-color: #0769AD;
 $rwd_logo_color: #BE3B33;
 $php_logo_color: #6082BB;
 $angular_logo_color: #F3573F;
+$node_logo_color: #026E00;
+$express_logo_color: #259DFF;
+$mongo_logo_color: #7FC857;
 
 @mixin border-radius($radius) {
 	 -webkit-border-radius: $radius;
@@ -24,6 +27,34 @@ body {
 	color: #222222;
 	margin: 0;
 }
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+	width: 0;
+	height: 0;
+}
+.img-1 {
+	background: url("../img/portfolio-1.png")
+}
+
+.img-2 {
+	background: url("../img/portfolio-2.png")
+}
+
+.img-3 {
+	background: url("../img/portfolio-3.png")
+}
+
+.img-4 {
+	background: url("../img/portfolio4.png")
+}
+
+.img-5 {
+	background: url("../img/portfolio5.png")
+}
+
+.img-6 {
+	background: url("../img/portfolio6.png")
+}
+
 a {
     outline: 0;
 }
@@ -245,6 +276,23 @@ h2 {
 	@extend .skill;
 	background-color: $angular_logo_color;
 }
+
+.node {
+	@extend .skill;
+	background-color: $node_logo_color;
+}
+
+.express {
+	@extend .skill;
+	background-color: $express_logo_color;
+}
+
+.mongo {
+	@extend .skill;
+	background-color: $mongo_logo_color;
+}
+
+
 .rating-active {
 	display: inline-block;
 	height: 10px;

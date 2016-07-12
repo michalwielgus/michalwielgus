@@ -1,5 +1,11 @@
-$.ajaxSetup({ cache: false });
 $(document).ready(function(){
+$.get("portfolio.html");
+$.get("skills.html");
+$.get("education.html");
+$.get("kontakt.html");
+$.get("about-me.html");
+$.get("work.html");
+
 	if (window.devicePixelRatio > 1) {
 
 		var lowerImage = $('#page-header a img');

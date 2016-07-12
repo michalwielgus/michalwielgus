@@ -7,6 +7,35 @@ body {
   margin: 0;
 }
 
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+  width: 0;
+  height: 0;
+}
+
+.img-1 {
+  background: url("../img/portfolio-1.png");
+}
+
+.img-2 {
+  background: url("../img/portfolio-2.png");
+}
+
+.img-3 {
+  background: url("../img/portfolio-3.png");
+}
+
+.img-4 {
+  background: url("../img/portfolio4.png");
+}
+
+.img-5 {
+  background: url("../img/portfolio5.png");
+}
+
+.img-6 {
+  background: url("../img/portfolio6.png");
+}
+
 a {
   outline: 0;
 }
@@ -157,7 +186,7 @@ h2 {
   width: 60%;
 }
 
-.skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular {
+.skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular, .node, .express, .mongo {
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -203,6 +232,18 @@ h2 {
 
 .angular {
   background-color: #F3573F;
+}
+
+.node {
+  background-color: #026E00;
+}
+
+.express {
+  background-color: #259DFF;
+}
+
+.mongo {
+  background-color: #7FC857;
 }
 
 .rating-active, .rating-inactive {
@@ -430,7 +471,7 @@ h2 {
     font-size: 13px;
   }
 
-  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular {
+  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular, .node, .express, .mongo {
     font-size: 1.6em;
   }
 }
@@ -443,7 +484,7 @@ h2 {
     display: block;
   }
 
-  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular {
+  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular, .node, .express, .mongo {
     width: 50%;
   }
 
@@ -534,7 +575,7 @@ h2 {
     padding-right: 0 !important;
   }
 
-  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular {
+  .skill, .html, .css, .jscript, .jquery, .rwd, .phpl, .symfony, .mysql, .angular, .node, .express, .mongo {
     width: 100%;
   }
 
