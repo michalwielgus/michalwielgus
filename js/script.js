@@ -47,7 +47,7 @@ $.get("work.html");
         var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
         email = $('input[name=email]').val();
         walidacja_email = re.test(email);
-        if($('input[name=name]').val() !='' && walidacja_email == true && $('input[name=tresc]').val()!=''){
+        if($('input[name=name]').val() && walidacja_email == true && $('textarea[name=tresc]').val()){
             event.preventDefault();
             showConfirm();
         }
@@ -62,7 +62,7 @@ $.get("work.html");
 function showConfirm(){
     $.ajax({
             type     : "POST",
-            url      : "http://michalwielgus.site88.net/webwarriors.pl/mail.php",
+            url      : "http://webwarriors.pl/michalwielgus/mail.php",
             data     : {
                 name : $('input[name=name]').val(),
                 email : $('input[name=email]').val(),
